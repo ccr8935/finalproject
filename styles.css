@@ -1,0 +1,33 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background: url(greenhill.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+.screenname{
+	color: blue;
+}
+.container{
+	background: url(webpage.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 700px;
+  	width: 800px;
+  	margin: auto;
+  	position: relative;
+}
+.text{
+	display: block;
+	position: absolute;
+	overflow: auto;
+	height: 410px;
+	width: 789px;
+	margin-top: 107px;
+}
+p{
+	margin-left: 20px;
+	font-size: 15pt;
+}
